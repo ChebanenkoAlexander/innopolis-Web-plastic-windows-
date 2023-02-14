@@ -1,0 +1,38 @@
+.container__footer {
+      background-color: #2F2F51;
+}
+
+.footer__basement {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 53px 0;
+      gap: 22px;
+      max-width: 1200px;
+      min-width: 595px;
+      margin: 0 auto;
+      font-weight: 400;
+}
+
+.footer__text {
+      margin-right: auto;
+      color: #FFFFFF;
+}
+
+.link__content {
+      display: flex;
+      gap: 22px;
+}
+
+.link__text {
+      color: #FFFFFF;
+      text-decoration: none;
+      font-size: 14px;
+}
+
+@media (max-width: 992px) {
+      .footer__basement {
+            max-width: 880px;
+            font-weight: 300;
+      }
+}

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+.container__header {
+      max-width: 1200px;
+      margin: 0 auto;
+}
+
+.navigation__block {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 17px 0;
+}
+
+@media (max-width: 992px) {
+      .navigation__block {
+            justify-content: left;
+            padding: 17px 56px 7px 56px;
+      }
+}
+
+.navigation__adaptiv {
+      padding-right: 44px;
+      cursor: pointer;
+}
+
+.navigation__adaptiv :hover {
+      opacity: 0.5; 
+}
+
+@media (min-width: 993px) {
+      .navigation__adaptiv {
+            display: none;
+      }
+}
+
+.navigation__list {
+      display: flex;
+      gap: 0 25px;
+}
+
+.navigation__list :hover {
+      opacity: 0.5;
+      }
+
+@media (max-width: 992px) {
+      .navigation__list {
+            display: none;
+            
+      }
+}
+
+.navigation__list-link {
+      color: #000000;
+      text-decoration: none;
+}
+
+.navigation__btn {
+      display: flex;
+      gap: 0 14px;
+}
+
+.navigation__btn :hover {
+      opacity: 0.5;
+      }
+
+@media (max-width: 992px) {
+      .navigation__btn {
+            padding-left: 295px;
+      }
+}
+
+.navigation__btn-item {
+      display: flex;
+      align-items: center;
+      padding: 10px 19px 10px 14px;
+      font-size: 13px;
+}
+
+.navigation__btn-img {
+      margin-right: 12px;
+}
